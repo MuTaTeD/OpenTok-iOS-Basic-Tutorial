@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F43F91314DC6AE5006CCCD3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F43F90214DC6AE5006CCCD3 /* AudioToolbox.framework */; };
+		1F43F91414DC6AE5006CCCD3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F43F90314DC6AE5006CCCD3 /* AVFoundation.framework */; };
+		1F43F91514DC6AE5006CCCD3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F43F90414DC6AE5006CCCD3 /* CFNetwork.framework */; };
+		1F43F91614DC6AE5006CCCD3 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F43F90514DC6AE5006CCCD3 /* CoreAudio.framework */; };
+		1F43F91714DC6AE5006CCCD3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F43F90614DC6AE5006CCCD3 /* CoreGraphics.framework */; };
+		1F43F91814DC6AE5006CCCD3 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F43F90714DC6AE5006CCCD3 /* CoreMedia.framework */; };
+		1F43F91914DC6AE5006CCCD3 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F43F90814DC6AE5006CCCD3 /* CoreVideo.framework */; };
+		1F43F91A14DC6AE5006CCCD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F43F90914DC6AE5006CCCD3 /* Foundation.framework */; };
+		1F43F91C14DC6AE5006CCCD3 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F43F90B14DC6AE5006CCCD3 /* libstdc++.dylib */; };
+		1F43F91D14DC6AE5006CCCD3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F43F90C14DC6AE5006CCCD3 /* libz.dylib */; };
+		1F43F91E14DC6AE5006CCCD3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F43F90D14DC6AE5006CCCD3 /* MobileCoreServices.framework */; };
+		1F43F91F14DC6AE5006CCCD3 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F43F90E14DC6AE5006CCCD3 /* OpenGLES.framework */; };
+		1F43F92014DC6AE5006CCCD3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F43F90F14DC6AE5006CCCD3 /* QuartzCore.framework */; };
+		1F43F92114DC6AE5006CCCD3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F43F91014DC6AE5006CCCD3 /* Security.framework */; };
+		1F43F92314DC6AE5006CCCD3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F43F91214DC6AE5006CCCD3 /* SystemConfiguration.framework */; };
+		1F68A64814DC62D7004C8394 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F68A64714DC62D7004C8394 /* UIKit.framework */; };
+		1F68A64A14DC62D7004C8394 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F68A64914DC62D7004C8394 /* Foundation.framework */; };
+		1F68A64C14DC62D7004C8394 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F68A64B14DC62D7004C8394 /* CoreGraphics.framework */; };
+		1F68A65214DC62D7004C8394 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F68A65014DC62D7004C8394 /* InfoPlist.strings */; };
+		1F68A65414DC62D7004C8394 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F68A65314DC62D7004C8394 /* main.m */; };
+		1F68A65814DC62D7004C8394 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F68A65714DC62D7004C8394 /* AppDelegate.m */; };
+		1F68A65B14DC62D7004C8394 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F68A65914DC62D7004C8394 /* MainStoryboard_iPhone.storyboard */; };
+		1F68A65E14DC62D7004C8394 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F68A65C14DC62D7004C8394 /* MainStoryboard_iPad.storyboard */; };
+		1F68A66114DC62D7004C8394 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F68A66014DC62D7004C8394 /* ViewController.m */; };
+		1F68A66A14DC62D7004C8394 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F68A64714DC62D7004C8394 /* UIKit.framework */; };
+		1F68A66B14DC62D7004C8394 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F68A64914DC62D7004C8394 /* Foundation.framework */; };
+		1F68A67314DC62D7004C8394 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F68A67114DC62D7004C8394 /* InfoPlist.strings */; };
+		1F68A67614DC62D7004C8394 /* OpenTokBasicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F68A67514DC62D7004C8394 /* OpenTokBasicTests.m */; };
+		D4F4DA86151983F10006B5C5 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F4DA85151983F10006B5C5 /* CoreTelephony.framework */; };
+		D4F4DA90151985F10006B5C5 /* Opentok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F4DA8F151985F10006B5C5 /* Opentok.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F68A66C14DC62D7004C8394 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F68A63A14DC62D7004C8394 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F68A64214DC62D7004C8394;
+			remoteInfo = OpenTokBasic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F43F90214DC6AE5006CCCD3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1F43F90314DC6AE5006CCCD3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1F43F90414DC6AE5006CCCD3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1F43F90514DC6AE5006CCCD3 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		1F43F90614DC6AE5006CCCD3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1F43F90714DC6AE5006CCCD3 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		1F43F90814DC6AE5006CCCD3 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		1F43F90914DC6AE5006CCCD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F43F90B14DC6AE5006CCCD3 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		1F43F90C14DC6AE5006CCCD3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		1F43F90D14DC6AE5006CCCD3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1F43F90E14DC6AE5006CCCD3 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		1F43F90F14DC6AE5006CCCD3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1F43F91014DC6AE5006CCCD3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1F43F91214DC6AE5006CCCD3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1F68A64314DC62D7004C8394 /* OpenTokBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenTokBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F68A64714DC62D7004C8394 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F68A64914DC62D7004C8394 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F68A64B14DC62D7004C8394 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1F68A64F14DC62D7004C8394 /* OpenTokBasic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenTokBasic-Info.plist"; sourceTree = "<group>"; };
+		1F68A65114DC62D7004C8394 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F68A65314DC62D7004C8394 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F68A65514DC62D7004C8394 /* OpenTokBasic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenTokBasic-Prefix.pch"; sourceTree = "<group>"; };
+		1F68A65614DC62D7004C8394 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F68A65714DC62D7004C8394 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F68A65A14DC62D7004C8394 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		1F68A65D14DC62D7004C8394 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		1F68A65F14DC62D7004C8394 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F68A66014DC62D7004C8394 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F68A66714DC62D7004C8394 /* OpenTokBasicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenTokBasicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F68A67014DC62D7004C8394 /* OpenTokBasicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenTokBasicTests-Info.plist"; sourceTree = "<group>"; };
+		1F68A67214DC62D7004C8394 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F68A67414DC62D7004C8394 /* OpenTokBasicTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenTokBasicTests.h; sourceTree = "<group>"; };
+		1F68A67514DC62D7004C8394 /* OpenTokBasicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenTokBasicTests.m; sourceTree = "<group>"; };
+		D4F4DA85151983F10006B5C5 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		D4F4DA8F151985F10006B5C5 /* Opentok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Opentok.framework; path = "opentok-ios-sdk/Opentok.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F68A64014DC62D7004C8394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F68A64814DC62D7004C8394 /* UIKit.framework in Frameworks */,
+				1F68A64A14DC62D7004C8394 /* Foundation.framework in Frameworks */,
+				1F68A64C14DC62D7004C8394 /* CoreGraphics.framework in Frameworks */,
+				1F43F91314DC6AE5006CCCD3 /* AudioToolbox.framework in Frameworks */,
+				1F43F91414DC6AE5006CCCD3 /* AVFoundation.framework in Frameworks */,
+				1F43F91514DC6AE5006CCCD3 /* CFNetwork.framework in Frameworks */,
+				1F43F91614DC6AE5006CCCD3 /* CoreAudio.framework in Frameworks */,
+				1F43F91714DC6AE5006CCCD3 /* CoreGraphics.framework in Frameworks */,
+				1F43F91814DC6AE5006CCCD3 /* CoreMedia.framework in Frameworks */,
+				D4F4DA86151983F10006B5C5 /* CoreTelephony.framework in Frameworks */,
+				1F43F91914DC6AE5006CCCD3 /* CoreVideo.framework in Frameworks */,
+				1F43F91A14DC6AE5006CCCD3 /* Foundation.framework in Frameworks */,
+				1F43F91C14DC6AE5006CCCD3 /* libstdc++.dylib in Frameworks */,
+				1F43F91D14DC6AE5006CCCD3 /* libz.dylib in Frameworks */,
+				1F43F91E14DC6AE5006CCCD3 /* MobileCoreServices.framework in Frameworks */,
+				1F43F91F14DC6AE5006CCCD3 /* OpenGLES.framework in Frameworks */,
+				1F43F92014DC6AE5006CCCD3 /* QuartzCore.framework in Frameworks */,
+				1F43F92114DC6AE5006CCCD3 /* Security.framework in Frameworks */,
+				1F43F92314DC6AE5006CCCD3 /* SystemConfiguration.framework in Frameworks */,
+				D4F4DA90151985F10006B5C5 /* Opentok.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F68A66314DC62D7004C8394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F68A66A14DC62D7004C8394 /* UIKit.framework in Frameworks */,
+				1F68A66B14DC62D7004C8394 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F68A63814DC62D7004C8394 = {
+			isa = PBXGroup;
+			children = (
+				1F68A64D14DC62D7004C8394 /* OpenTokBasic */,
+				1F68A66E14DC62D7004C8394 /* OpenTokBasicTests */,
+				1F68A64614DC62D7004C8394 /* Frameworks */,
+				1F68A64414DC62D7004C8394 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F68A64414DC62D7004C8394 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F68A64314DC62D7004C8394 /* OpenTokBasic.app */,
+				1F68A66714DC62D7004C8394 /* OpenTokBasicTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F68A64614DC62D7004C8394 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4F4DA8F151985F10006B5C5 /* Opentok.framework */,
+				D4F4DA85151983F10006B5C5 /* CoreTelephony.framework */,
+				1F43F90214DC6AE5006CCCD3 /* AudioToolbox.framework */,
+				1F43F90314DC6AE5006CCCD3 /* AVFoundation.framework */,
+				1F43F90414DC6AE5006CCCD3 /* CFNetwork.framework */,
+				1F43F90514DC6AE5006CCCD3 /* CoreAudio.framework */,
+				1F43F90614DC6AE5006CCCD3 /* CoreGraphics.framework */,
+				1F43F90714DC6AE5006CCCD3 /* CoreMedia.framework */,
+				1F43F90814DC6AE5006CCCD3 /* CoreVideo.framework */,
+				1F43F90914DC6AE5006CCCD3 /* Foundation.framework */,
+				1F43F90B14DC6AE5006CCCD3 /* libstdc++.dylib */,
+				1F43F90C14DC6AE5006CCCD3 /* libz.dylib */,
+				1F43F90D14DC6AE5006CCCD3 /* MobileCoreServices.framework */,
+				1F43F90E14DC6AE5006CCCD3 /* OpenGLES.framework */,
+				1F43F90F14DC6AE5006CCCD3 /* QuartzCore.framework */,
+				1F43F91014DC6AE5006CCCD3 /* Security.framework */,
+				1F43F91214DC6AE5006CCCD3 /* SystemConfiguration.framework */,
+				1F68A64714DC62D7004C8394 /* UIKit.framework */,
+				1F68A64914DC62D7004C8394 /* Foundation.framework */,
+				1F68A64B14DC62D7004C8394 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F68A64D14DC62D7004C8394 /* OpenTokBasic */ = {
+			isa = PBXGroup;
+			children = (
+				1F68A65614DC62D7004C8394 /* AppDelegate.h */,
+				1F68A65714DC62D7004C8394 /* AppDelegate.m */,
+				1F68A65914DC62D7004C8394 /* MainStoryboard_iPhone.storyboard */,
+				1F68A65C14DC62D7004C8394 /* MainStoryboard_iPad.storyboard */,
+				1F68A65F14DC62D7004C8394 /* ViewController.h */,
+				1F68A66014DC62D7004C8394 /* ViewController.m */,
+				1F68A64E14DC62D7004C8394 /* Supporting Files */,
+			);
+			path = OpenTokBasic;
+			sourceTree = "<group>";
+		};
+		1F68A64E14DC62D7004C8394 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F68A64F14DC62D7004C8394 /* OpenTokBasic-Info.plist */,
+				1F68A65014DC62D7004C8394 /* InfoPlist.strings */,
+				1F68A65314DC62D7004C8394 /* main.m */,
+				1F68A65514DC62D7004C8394 /* OpenTokBasic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F68A66E14DC62D7004C8394 /* OpenTokBasicTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F68A67414DC62D7004C8394 /* OpenTokBasicTests.h */,
+				1F68A67514DC62D7004C8394 /* OpenTokBasicTests.m */,
+				1F68A66F14DC62D7004C8394 /* Supporting Files */,
+			);
+			path = OpenTokBasicTests;
+			sourceTree = "<group>";
+		};
+		1F68A66F14DC62D7004C8394 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F68A67014DC62D7004C8394 /* OpenTokBasicTests-Info.plist */,
+				1F68A67114DC62D7004C8394 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F68A64214DC62D7004C8394 /* OpenTokBasic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F68A67914DC62D7004C8394 /* Build configuration list for PBXNativeTarget "OpenTokBasic" */;
+			buildPhases = (
+				1F68A63F14DC62D7004C8394 /* Sources */,
+				1F68A64014DC62D7004C8394 /* Frameworks */,
+				1F68A64114DC62D7004C8394 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenTokBasic;
+			productName = OpenTokBasic;
+			productReference = 1F68A64314DC62D7004C8394 /* OpenTokBasic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F68A66614DC62D7004C8394 /* OpenTokBasicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F68A67C14DC62D7004C8394 /* Build configuration list for PBXNativeTarget "OpenTokBasicTests" */;
+			buildPhases = (
+				1F68A66214DC62D7004C8394 /* Sources */,
+				1F68A66314DC62D7004C8394 /* Frameworks */,
+				1F68A66414DC62D7004C8394 /* Resources */,
+				1F68A66514DC62D7004C8394 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F68A66D14DC62D7004C8394 /* PBXTargetDependency */,
+			);
+			name = OpenTokBasicTests;
+			productName = OpenTokBasicTests;
+			productReference = 1F68A66714DC62D7004C8394 /* OpenTokBasicTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F68A63A14DC62D7004C8394 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1F68A63D14DC62D7004C8394 /* Build configuration list for PBXProject "OpenTokBasic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F68A63814DC62D7004C8394;
+			productRefGroup = 1F68A64414DC62D7004C8394 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F68A64214DC62D7004C8394 /* OpenTokBasic */,
+				1F68A66614DC62D7004C8394 /* OpenTokBasicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F68A64114DC62D7004C8394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F68A65214DC62D7004C8394 /* InfoPlist.strings in Resources */,
+				1F68A65B14DC62D7004C8394 /* MainStoryboard_iPhone.storyboard in Resources */,
+				1F68A65E14DC62D7004C8394 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F68A66414DC62D7004C8394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F68A67314DC62D7004C8394 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F68A66514DC62D7004C8394 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F68A63F14DC62D7004C8394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F68A65414DC62D7004C8394 /* main.m in Sources */,
+				1F68A65814DC62D7004C8394 /* AppDelegate.m in Sources */,
+				1F68A66114DC62D7004C8394 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F68A66214DC62D7004C8394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F68A67614DC62D7004C8394 /* OpenTokBasicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F68A66D14DC62D7004C8394 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F68A64214DC62D7004C8394 /* OpenTokBasic */;
+			targetProxy = 1F68A66C14DC62D7004C8394 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F68A65014DC62D7004C8394 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F68A65114DC62D7004C8394 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1F68A65914DC62D7004C8394 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F68A65A14DC62D7004C8394 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1F68A65C14DC62D7004C8394 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F68A65D14DC62D7004C8394 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		1F68A67114DC62D7004C8394 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F68A67214DC62D7004C8394 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F68A67714DC62D7004C8394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F68A67814DC62D7004C8394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F68A67A14DC62D7004C8394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+					"\"$(SRCROOT)/OpenTokBasic/libOpentok\"",
+					"\"$(SRCROOT)/OpenTokBasic\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/opentok-ios-sdk\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenTokBasic/OpenTokBasic-Prefix.pch";
+				INFOPLIST_FILE = "OpenTokBasic/OpenTokBasic-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OpenTokBasic\"",
+					"\"$(SRCROOT)/../OpentokHelloWorld/libOpentok\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1F68A67B14DC62D7004C8394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+					"\"$(SRCROOT)/OpenTokBasic/libOpentok\"",
+					"\"$(SRCROOT)/OpenTokBasic\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/opentok-ios-sdk\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenTokBasic/OpenTokBasic-Prefix.pch";
+				INFOPLIST_FILE = "OpenTokBasic/OpenTokBasic-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OpenTokBasic\"",
+					"\"$(SRCROOT)/../OpentokHelloWorld/libOpentok\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1F68A67D14DC62D7004C8394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenTokBasic.app/OpenTokBasic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenTokBasic/OpenTokBasic-Prefix.pch";
+				INFOPLIST_FILE = "OpenTokBasicTests/OpenTokBasicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1F68A67E14DC62D7004C8394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenTokBasic.app/OpenTokBasic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenTokBasic/OpenTokBasic-Prefix.pch";
+				INFOPLIST_FILE = "OpenTokBasicTests/OpenTokBasicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F68A63D14DC62D7004C8394 /* Build configuration list for PBXProject "OpenTokBasic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F68A67714DC62D7004C8394 /* Debug */,
+				1F68A67814DC62D7004C8394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F68A67914DC62D7004C8394 /* Build configuration list for PBXNativeTarget "OpenTokBasic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F68A67A14DC62D7004C8394 /* Debug */,
+				1F68A67B14DC62D7004C8394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F68A67C14DC62D7004C8394 /* Build configuration list for PBXNativeTarget "OpenTokBasicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F68A67D14DC62D7004C8394 /* Debug */,
+				1F68A67E14DC62D7004C8394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F68A63A14DC62D7004C8394 /* Project object */;
+}
