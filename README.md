@@ -1,6 +1,8 @@
 The OpenTokBasic sample app
 ===========================
 
+***Important:*** Be sure to git clone with --recursive to grab the required OpenTok iOS SDK submodule!
+
 The OpenTokBasic sample app is a sample app that shows all features of the OpenTok iOS library. It goes into more detail than the [OpenTokHello sample app](https://github.com/opentok/OpenTok-iOS-Hello-World).
 
 The OpenTokBasic sample app lets you test the entire OpenTok iOS API. In addition to the features available in the OpenTokHello sample app,
