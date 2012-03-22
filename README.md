@@ -1,7 +1,7 @@
 The OpenTokBasic sample app
 ===========================
 
-The OpenTokBasic sample app is a sample app that shows all features of the OpenTok iOS library. It goes into more detail than the [OpenTokHello sample app](OpenTokHello.html).
+The OpenTokBasic sample app is a sample app that shows all features of the OpenTok iOS library. It goes into more detail than the [OpenTokHello sample app](https://github.com/opentok/OpenTok-iOS-Hello-World).
 
 The OpenTokBasic sample app lets you test the entire OpenTok iOS API. In addition to the features available in the OpenTokHello sample app,
 the OpenTokBasic sample app lets you do the following:
@@ -13,8 +13,8 @@ the OpenTokBasic sample app lets you do the following:
 - Unsubscribe from streams
 - Disconnect from a session
 
-Before you test the sample app, be sure to read [Using the OpenTok iOS SDK](Using_iOS.html). Also, you may want to first look
-at the OpenTokHelloWorld sample app.
+Before you test the sample app, be sure to read [Using the OpenTok iOS SDK](http://www.tokbox.com/opentok/ios/docs/docs/Using_iOS.html). Also, you may want to first look
+at the [OpenTokHelloWorld](https://github.com/opentok/OpenTok-iOS-Hello-World) sample app.
 
 Testing the sample app
 ----------------------
@@ -62,7 +62,7 @@ Understanding the code
 ----------------------
 
 The OpenTokBasic app builds on the OpenTokHello app, showing more features of the OpenTok iOS SDK.
-Review the description of the [OpenTokHello sample app](OpenTokHello.html) for basic information on:
+Review the description of the [OpenTokHello sample app](https://github.com/opentok/OpenTok-iOS-Hello-World) for basic information on:
 
 - Initializing an OTSession object and connecting to an OpenTok session
 - Publishing a stream to a session
